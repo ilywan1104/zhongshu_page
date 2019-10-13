@@ -8,7 +8,7 @@ export default {
       antd: true,
       dva: false,
       dynamicImport: false,
-      title: 'zhongshu_page',
+      title: '众数科技-专注互联网产品定制开发服务',
       dll: false,
       
       routes: {
