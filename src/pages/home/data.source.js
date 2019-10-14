@@ -4,7 +4,7 @@
  * @Author: Tony.Z
  * @Date: 2019-10-11 14:38:26
  * @LastEditors: Tony.Z
- * @LastEditTime: 2019-10-15 00:32:27
+ * @LastEditTime: 2019-10-15 00:57:55
  */
 import React from 'react';
 import header_logo from '../../assets/logo.svg';
@@ -79,17 +79,14 @@ export const Banner00DataSource = {
     className: 'banner0-content',
     children: (
       <div>
-        <p>专注互联网产品定制开发服务</p>
+        <p>专注互联网产品深度定制化开发</p>
         <p>国内专业的互联网技术解决方案提供商</p>
       </div>
     ),
   },
   button: {
     className: 'banner0-button',
-    children: (<img src={`${wx_qrcode}`} width="140" />),//'联系我们',
-    // type: 'dashed',
-    // href: '',
-    // target: '_blank',
+    children: (<img src={`${wx_qrcode}`} width="140" />),
   },
 };
 export const Content30DataSource = {

@@ -4,7 +4,7 @@ import Link from 'rc-scroll-anim/lib/ScrollLink';
 export default function Point(props) {
   const { data, size, position, type, stroke } = props;
   const children = data.map((item) => {
-    if (item.match('nav') || item.match('footer')) {
+    if (item.match('Nav') || item.match('Footer')) {
       return null;
     }
     const className = `point ${type} ${stroke} ${size}`.trim();
