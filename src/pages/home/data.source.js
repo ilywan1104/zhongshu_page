@@ -4,12 +4,21 @@
  * @Author: Tony.Z
  * @Date: 2019-10-11 14:38:26
  * @LastEditors: Tony.Z
- * @LastEditTime: 2019-10-14 00:30:39
+ * @LastEditTime: 2019-10-15 00:32:27
  */
 import React from 'react';
 import header_logo from '../../assets/logo.svg';
 import banner_logo from '../../assets/logo.png';
-import wx_qrcode from '../../assets/wx_qrcode.jpg';
+import wx_qrcode from '../../assets/wx_qrcode.png';
+
+import ppg from '../../assets/case/ppg.png';
+import htc from '../../assets/case/htc.png';
+import fp from '../../assets/case/fp.png';
+import ljpp from '../../assets/case/ljpp.png';
+import yyhl from '../../assets/case/yyhl.png';
+import fn_app from '../../assets/case/fn_app.png'
+import duo from '../../assets/case/duo.png';
+import wx_h5 from '../../assets/case/jcbx.png';
 
 const logo = window.location.origin + banner_logo;
 
@@ -346,11 +355,10 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          img: { children: ppg },
+          content: { 
+            children: '【跨境进口】啪啪购',
           },
-          content: { children: 'Ant Design' },
         },
       },
       {
@@ -360,11 +368,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          img: { children: yyhl },
+          content: { children: '【微信小程序】悦牙好礼' },
         },
       },
       {
@@ -374,11 +379,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          img: { children: fp },
+          content: { children: '【跨境出口】Focalprice' },
         },
       },
       {
@@ -388,11 +390,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          img: { children: fn_app },
+          content: { children: '【移动端APP】某大型企业赋能APP' },
         },
       },
       {
@@ -402,11 +401,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          img: { children: ljpp },
+          content: { children: '【微信小程序】礼记合伙人' },
         },
       },
       {
@@ -416,11 +412,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          img: { children: duo },
+          content: { children: '【移动端APP】多多问答' },
         },
       },
       {
@@ -430,11 +423,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          img: { children: wx_h5 },
+          content: { children: '【微信小程序】某体育类微信小程序' },
         },
       },
       {
@@ -444,11 +434,8 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          img: { children: htc },
+          content: { children: '【跨境进口】海淘橙' },
         },
       },
     ],
